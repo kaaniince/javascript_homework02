@@ -18,7 +18,7 @@ userFormDOM.addEventListener("submit", (event) => {
   event.preventDefault();
   const TASK = document.querySelector("#task");
   const taskValue = TASK.value.trim();
-  const maxTaskLength = 130;
+  const maxTaskLength = 150;
 
   if (taskValue === "") {
     showToast("warning", "Uyarı!", "Liste ögesi boş olamaz.");
